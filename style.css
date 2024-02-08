@@ -1,23 +1,39 @@
 #container {
+    position: absolute;
     height: 800px;
     width: 1200px;
     border: 2px solid #000;
 }
 
 #world {
+    position: absolute;
     width: inherit;
     height: inherit;
-    transform: translate3d(100px, 100px, 0px);
 }
 
 #square1 {
+    position: absolute;
     height: 100px;
     width: 100px;
+    background: rgba(124, 34, 46, 0.5);
     border: 2px solid #FF0000;
 }
 
 #square2 {
-    height: 100px;
-    width: 100px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background: rgba(112, 124, 34, 0.5);
     border: 2px solid #00FF00;
+}
+
+#pawn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 400px;
+    left: 600px;
+    border: 2px solid #FF00FF;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
 }
