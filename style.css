@@ -3,12 +3,14 @@
     height: 800px;
     width: 1200px;
     border: 2px solid #000;
+    perspective: 600px;
 }
 
 #world {
     position: absolute;
     width: inherit;
     height: inherit;
+    transform-style: preserve-3d;
 }
 
 #square1 {
@@ -16,7 +18,7 @@
     height: 100px;
     width: 100px;
     background: rgba(124, 34, 46, 0.5);
-    border: 2px solid #FF0000;
+    transform: translate3d(300px, 400px, -200px) rotateX(45deg);
 }
 
 #square2 {
@@ -24,7 +26,6 @@
     height: 120px;
     width: 120px;
     background: rgba(112, 124, 34, 0.5);
-    border: 2px solid #00FF00;
 }
 
 #pawn {
